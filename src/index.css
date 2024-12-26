@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.arriver {
+     background:url("/alokan.jpeg") no-repeat  ;
+     background-size: cover;
+  
+}
