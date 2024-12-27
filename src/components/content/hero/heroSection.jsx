@@ -19,7 +19,7 @@ export default function HeroSection() {
     };
   }
   return (
-    <div className="mt-[5rem] md:h-screen arriver flex flex-col justify-center ">
+    <div className=" md:h-screen arriver flex flex-col justify-center ">
       <div className=" px-8 py-4">
         <div className="space-y-2 flex flex-col">
          

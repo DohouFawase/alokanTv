@@ -4,6 +4,7 @@ import HomePage from "../pages/homePage";
 import Stream from "../pages/stream";
 import ReviewPage from "../pages/reviewPage";
 import Preload from "../components/content/load/loadPage";
+import LoginPage from "../pages/auth/loginPage";
 
 let routes =  createBrowserRouter([
    {
@@ -25,8 +26,8 @@ let routes =  createBrowserRouter([
         },
 
         {
-            path:"/preload",
-            Component:Preload
+            path:"/connexion",
+            Component:LoginPage
         }
     ]
 

@@ -40,7 +40,7 @@ export default function NavBar() {
       }
   }
   return (
-    <div className='text-white bg-black p-4 fixed w-full top-0  shadow 2xl'>
+    <div className='text-white bg-black p-4   shadow 2xl'>
       <div className="flex justify-between py-3  px-4 w-full items-center ">
         <motion.div 
          initial={{opacity:0}}
@@ -77,7 +77,11 @@ export default function NavBar() {
 }
           </ul>
            
+          
         </div>
+        <div className="">
+            <NavLink to="/connexion" className="text-white bg-[#f8549b] px-4 py-1 rounded-lg">Connexion</NavLink>
+           </div>
       </div>
     </div>
   )
